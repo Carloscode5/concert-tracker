@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Pocket Concert Tracker",
+    "description": "This extension tracks upcoming concerts from your favorite genres.",
+    "version": "1.0.0",
+    "author": "Carlos Valenzuela",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
